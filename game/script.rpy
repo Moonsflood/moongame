@@ -36,6 +36,8 @@ label start:
 
     a "See you soon! xx"
 
+    a "<3"
+
     # This ends the game.
 
     return
