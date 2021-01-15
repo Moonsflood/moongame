@@ -3,6 +3,10 @@
 # Declare characters used by this game. The color argument colorizes the
 # name of the character.
 
+# Game Design: Aysel
+# Art and Charater Design: David
+# Story Design: Trin
+
 define a = Character("Moon")
 
 
@@ -14,7 +18,7 @@ label start:
     # add a file (named either "bg room.png" or "bg room.jpg") to the
     # images directory to show it.
 
-    scene bg room
+    scene colorbk
 
     # This shows a character sprite. A placeholder is used, but you can
     # replace it by adding a file named "eileen happy.png" to the images
@@ -37,6 +41,18 @@ label start:
     a "See you soon! xx"
 
     a "<3"
+
+
+    scene workprogress
+
+    a "Oh Hi, you are still here?"
+
+    a "Silly you, we are still not finished here yet!"
+
+    a "hehe..."
+
+
+
 
     # This ends the game.
 
