@@ -9,6 +9,8 @@
 
 define a = Character("Moon")
 
+define t = Character("Story Teller")
+
 
 # The game starts here.
 
@@ -51,7 +53,11 @@ label start:
 
     a "hehe..."
 
+    scene garden
 
+    t "Once upon a time there was a girl name moon..."
+
+    t "...she loves the moon, the skies and the universe"
 
 
     # This ends the game.
